@@ -8,5 +8,8 @@
     "knex": "^3.1.0",
     "pg": "^8.13.3"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "knex": "cd sql && npx knex"
+  }
 }

@@ -10,11 +10,11 @@
    ```sh
    npx knex migrate:latest
    ```
-5. Start the backend server:  
+4. Start the backend server:  
    ```sh
    npm start
    ```
-6. If the frontend host has changed from default, update CORS settings in `server.js`.
+5. If the frontend host has changed from default, update CORS settings in `server.js`.
 
 ## Environment Variables (Backend)
 Ensure the following environment variables are set:
