@@ -5,7 +5,7 @@ const styles: Record<string, React.CSSProperties> = {
   ul: {
     padding: 0,
     width: "100%",
-    border: "1px solid rgb(0, 0, 0)"
+    borderBottom: "1px solid rgb(0, 0, 0)"
   }
 }
 
@@ -20,7 +20,7 @@ const TaskList = ({ tasks, refresh }: { tasks: Task[]; refresh: () => void; }) =
           <TaskItem key={task.id} task={task} refresh={refresh} />
         ))}
       </ul>
-      {tasks.length === 0 ? <p>nothing to show...</p> : <></>}
+      {tasks.length === 0 ? <p>nothing to show...</p> : <p>showing {tasks.length} task(s)...</p>}
     </>
   );
 };

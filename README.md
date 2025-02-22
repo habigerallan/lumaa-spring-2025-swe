@@ -6,15 +6,17 @@
    ```sh
    npm install
    ```
-3. Run database migrations:  
+3. Create postgres database named "task_db". [Installation Instructions](https://www.postgresql.org/docs/current/tutorial-install.html)
+
+4. Run database migrations:  
    ```sh
-   npx knex migrate:latest
+   npm run knex migrate:latest
    ```
-4. Start the backend server:  
+5. Start the backend server:  
    ```sh
    npm start
    ```
-5. If the frontend host has changed from default, update CORS settings in `server.js`.
+6. If the frontend host has changed from default, update CORS settings in `server.js`.
 
 ## Environment Variables (Backend)
 Ensure the following environment variables are set:
@@ -37,3 +39,10 @@ Adjust values as needed for your environment.
    npm start
    ```
 4. If the backend host has changed from default, update `api.ts` in the frontend.
+
+## Video Demonstration
+[https://drive.google.com/file/d/1klW5zL9PPoBZlVNWDTYpL28GADF5wssb/view?usp=sharing](https://drive.google.com/file/d/1klW5zL9PPoBZlVNWDTYpL28GADF5wssb/view?usp=sharing)
+
+
+## Monthly Salary
+$4000
